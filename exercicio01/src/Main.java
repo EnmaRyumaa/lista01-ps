@@ -14,7 +14,11 @@ public class Main {
             Double n3 = Double.parseDouble(sc.next()
                     .replace(",", "."));
 
-            Media media = new Media(n1, n2, n3);
+            Media media = new Media(
+                    Double.parseDouble(sc.next().replace(",", ".")),
+                    Double.parseDouble(sc.next().replace(",", ".")),
+                    Double.parseDouble(sc.next().replace(",", "."))
+            );
 
             System.out.println(media.makeMedia());
         } catch (Exception e) {

@@ -9,10 +9,9 @@ public class Main {
 
         try {
            Salario sal = new Salario(sc.nextDouble());
-
-            System.out.println(sal.fixSalary());
+           System.out.println(sal.fixSalary());
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao converter");
         }
     }
 }

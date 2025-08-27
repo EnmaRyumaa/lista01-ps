@@ -22,7 +22,7 @@ public class Main {
 
             System.out.println(media.makeMedia());
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("Erro ao converter");
         }
     }
 }

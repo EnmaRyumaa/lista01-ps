@@ -1,16 +1,16 @@
-import triangulo.Triangulo;
+import circulo.Circunferencia;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Insira os valores dos 2 catetos: ");
+        System.out.println("Insira o valor do raio: ");
 
         Scanner sc = new Scanner(System.in);
 
         try {
-            Triangulo triangulo = new Triangulo(sc.nextDouble(), sc.nextDouble());
-            System.out.println(triangulo.calcHipotenuse());
+            Circunferencia circunferencia = new Circunferencia(sc.nextDouble());
+            System.out.println(circunferencia.toString());
         } catch (Exception e) {
             System.out.println("Erro ao converter");
         }

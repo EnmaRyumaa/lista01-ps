@@ -12,7 +12,7 @@ public class Main {
             Losango l = new Losango(sc.nextDouble(), sc.nextDouble());
             System.out.println(l.losangoArea());
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao converter");
         }
     }
 }

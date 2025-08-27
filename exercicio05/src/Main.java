@@ -12,7 +12,7 @@ public class Main {
             Salary salary = new Salary(sc.nextDouble(), sc.nextDouble());
             System.out.println(salary.countSalary());
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao converter");
         }
     }
 }

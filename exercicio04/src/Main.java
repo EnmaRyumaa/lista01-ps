@@ -12,7 +12,7 @@ public class Main {
             Temperatura temp = new Temperatura(sc.nextDouble());
             System.out.println(temp.conversaoTemperatura());
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao converter");
         }
     }
 }
